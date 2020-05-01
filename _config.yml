@@ -1,0 +1,16 @@
+theme: minima
+title: omega | blog
+author: Yadav Lamichhane
+timezone: Asia/Kathmandu
+twitter_username: omegazyadav
+github_username: omegazyadav
+linkedin_username: omegazyadav
+show_excerpts: false
+plugins:
+  - jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+include:
+  - "_img"
