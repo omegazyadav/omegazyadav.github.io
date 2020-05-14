@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'ruby --version'
-                sh 'echo "Hello omega! This looks good so far! '
+                sh 'echo "Hello omega! This looks good so far!"'
             }
         }
     }
