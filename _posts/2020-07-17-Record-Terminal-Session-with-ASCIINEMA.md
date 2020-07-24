@@ -100,6 +100,30 @@ later play that video with the command ``` asciinema play your_file_name ```.
 Similarly you can upload the recorded video to the asciinema server with ``` asciinema upload your_file_name ``` command. 
 
 
+## asciinema with tmux
+
+We can use asciinema with tmux for recording multiple terminal session. Follow
+the given steps to implement the asciinema with tmux.
+
+1. Start the tmux session
+
+    ``` tmux new -s omega ``` 
+2. Create a multiple window 
+
+    i. For vertical window use ``` [ctrl + b] + % ``` 
+
+    ii. For horizontal window use ``` [ctrl+b]  + " ``` 
+
+3. Detach the current tmux session with ``` [ctrl + b ] + d ``` 
+
+4. Attach the tmux session along with asciinema 
+
+    ``` asciinema rec -c "tmux attach -t omega" ``` 
+
+5. After recording completed, detach the tmux session and save the recording. 
+
+#### Voila! See the recording with the given link shown in your screen. 
+
 
 
 
