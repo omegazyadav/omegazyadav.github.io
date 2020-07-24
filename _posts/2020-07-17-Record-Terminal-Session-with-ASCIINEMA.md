@@ -124,6 +124,8 @@ the given steps to implement the asciinema with tmux.
 
 #### Voila! See the recording with the given link shown in your screen. 
 
+[Recording multiple terminal session with tmux](https://asciinema.org/a/349424)
+
 
 
 
