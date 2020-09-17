@@ -1,3 +1,5 @@
+## Documentation is important and on this blog post I have tried list down for git.
+
 1. Reset the git commit which hasn't been pushed yet
 
 	``` git reset --hard HEAD~; ``` 
