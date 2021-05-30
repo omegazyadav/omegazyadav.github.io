@@ -1,5 +1,5 @@
-### Blog Post  
+### Blog Post
 
-#### Blog Post you should not be care about ! 
+#### Blog Post that you should not care about !
 
 
